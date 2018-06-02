@@ -1,0 +1,560 @@
+INFO  [main] [CommonHelper.java:37]: Object Set
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [RequestAddCookies.java:123]: CookieSpec selected: default
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [RequestAuthCache.java:77]: Auth cache not set in the context
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [PoolingHttpClientConnectionManager.java:255]: Connection request: [route: {}->http://localhost:48533][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [PoolingHttpClientConnectionManager.java:288]: Connection leased: [id: 1][route: {}->http://localhost:48533][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:235]: Opening connection {}->http://localhost:48533
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [DefaultHttpClientConnectionOperator.java:139]: Connecting to localhost/127.0.0.1:48533
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [DefaultHttpClientConnectionOperator.java:146]: Connection established 127.0.0.1:53450<->127.0.0.1:48533
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:88]: http-outgoing-1: set socket timeout to 10800000
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:256]: Executing request POST /session/aefb628dc0746246dffca62f22f9398b/url HTTP/1.1
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:261]: Target auth state: UNCHALLENGED
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:267]: Proxy auth state: UNCHALLENGED
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:133]: http-outgoing-1 >> POST /session/aefb628dc0746246dffca62f22f9398b/url HTTP/1.1
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-1 >> Content-Length: 27
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-1 >> Host: localhost:48533
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-1 >> Connection: Keep-Alive
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_65)
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-1 >> Accept-Encoding: gzip,deflate
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 >> "POST /session/aefb628dc0746246dffca62f22f9398b/url HTTP/1.1[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 >> "Content-Length: 27[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 >> "Host: localhost:48533[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_65)[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 >> "[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:87]: http-outgoing-1 >> "{"url":"http://google.com"}"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 << "Content-Length:72[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 << "Connection:close[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-1 << "[\r][\n]"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:87]: http-outgoing-1 << "{"sessionId":"aefb628dc0746246dffca62f22f9398b","status":0,"value":null}"
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:122]: http-outgoing-1 << HTTP/1.1 200 OK
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:125]: http-outgoing-1 << Content-Length:72
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:125]: http-outgoing-1 << Content-Type:application/json; charset=utf-8
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:125]: http-outgoing-1 << Connection:close
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:79]: http-outgoing-1: Close connection
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [ConnectionHolder.java:104]: Connection discarded
+DEBUG [Forwarding get on session aefb628dc0746246dffca62f22f9398b to remote] [PoolingHttpClientConnectionManager.java:326]: Connection released: [id: 1][route: {}->http://localhost:48533][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [RequestAddCookies.java:123]: CookieSpec selected: default
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [RequestAuthCache.java:77]: Auth cache not set in the context
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [PoolingHttpClientConnectionManager.java:255]: Connection request: [route: {}->http://localhost:48533][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [PoolingHttpClientConnectionManager.java:288]: Connection leased: [id: 2][route: {}->http://localhost:48533][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:235]: Opening connection {}->http://localhost:48533
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [DefaultHttpClientConnectionOperator.java:139]: Connecting to localhost/127.0.0.1:48533
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [DefaultHttpClientConnectionOperator.java:146]: Connection established 127.0.0.1:53460<->127.0.0.1:48533
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:88]: http-outgoing-2: set socket timeout to 10800000
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:256]: Executing request POST /session/aefb628dc0746246dffca62f22f9398b/element HTTP/1.1
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:261]: Target auth state: UNCHALLENGED
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:267]: Proxy auth state: UNCHALLENGED
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:133]: http-outgoing-2 >> POST /session/aefb628dc0746246dffca62f22f9398b/element HTTP/1.1
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-2 >> Content-Type: application/json; charset=utf-8
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-2 >> Content-Length: 31
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-2 >> Host: localhost:48533
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-2 >> Connection: Keep-Alive
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_65)
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-2 >> Accept-Encoding: gzip,deflate
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 >> "POST /session/aefb628dc0746246dffca62f22f9398b/element HTTP/1.1[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 >> "Content-Length: 31[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 >> "Host: localhost:48533[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_65)[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 >> "[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:87]: http-outgoing-2 >> "{"using":"id","value":"lst-ib"}"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 << "Content-Length:100[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 << "Connection:close[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-2 << "[\r][\n]"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:87]: http-outgoing-2 << "{"sessionId":"aefb628dc0746246dffca62f22f9398b","status":0,"value":{"ELEMENT":"0.39192775756857-1"}}"
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:122]: http-outgoing-2 << HTTP/1.1 200 OK
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:125]: http-outgoing-2 << Content-Length:100
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:125]: http-outgoing-2 << Content-Type:application/json; charset=utf-8
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:125]: http-outgoing-2 << Connection:close
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:79]: http-outgoing-2: Close connection
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [ConnectionHolder.java:104]: Connection discarded
+DEBUG [Forwarding findElement on session aefb628dc0746246dffca62f22f9398b to remote] [PoolingHttpClientConnectionManager.java:326]: Connection released: [id: 2][route: {}->http://localhost:48533][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+INFO  [main] [CommonHelper.java:91]: id Found
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [RequestAddCookies.java:123]: CookieSpec selected: default
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [RequestAuthCache.java:77]: Auth cache not set in the context
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [PoolingHttpClientConnectionManager.java:255]: Connection request: [route: {}->http://localhost:48533][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [PoolingHttpClientConnectionManager.java:288]: Connection leased: [id: 3][route: {}->http://localhost:48533][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:235]: Opening connection {}->http://localhost:48533
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [DefaultHttpClientConnectionOperator.java:139]: Connecting to localhost/127.0.0.1:48533
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [DefaultHttpClientConnectionOperator.java:146]: Connection established 127.0.0.1:53461<->127.0.0.1:48533
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:88]: http-outgoing-3: set socket timeout to 10800000
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:256]: Executing request GET /session/aefb628dc0746246dffca62f22f9398b/title HTTP/1.1
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:261]: Target auth state: UNCHALLENGED
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [MainClientExec.java:267]: Proxy auth state: UNCHALLENGED
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:133]: http-outgoing-3 >> GET /session/aefb628dc0746246dffca62f22f9398b/title HTTP/1.1
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-3 >> Cache-Control: no-cache
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-3 >> Host: localhost:48533
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-3 >> Connection: Keep-Alive
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_65)
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:136]: http-outgoing-3 >> Accept-Encoding: gzip,deflate
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 >> "GET /session/aefb628dc0746246dffca62f22f9398b/title HTTP/1.1[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 >> "Cache-Control: no-cache[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 >> "Host: localhost:48533[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_65)[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 >> "[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 << "Content-Length:76[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 << "Connection:close[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:73]: http-outgoing-3 << "[\r][\n]"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [Wire.java:87]: http-outgoing-3 << "{"sessionId":"aefb628dc0746246dffca62f22f9398b","status":0,"value":"Google"}"
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:122]: http-outgoing-3 << HTTP/1.1 200 OK
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:125]: http-outgoing-3 << Content-Length:76
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:125]: http-outgoing-3 << Content-Type:application/json; charset=utf-8
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:125]: http-outgoing-3 << Connection:close
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [LoggingManagedHttpClientConnection.java:79]: http-outgoing-3: Close connection
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [ConnectionHolder.java:104]: Connection discarded
+DEBUG [Forwarding getTitle on session aefb628dc0746246dffca62f22f9398b to remote] [PoolingHttpClientConnectionManager.java:326]: Connection released: [id: 3][route: {}->http://localhost:48533][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+INFO  [main] [CommonHelper.java:37]: Object Set
+INFO  [main] [CommonHelper.java:91]: id Found
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing src\main\resources\EnvProperty\EnvProperty.properties
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing src\main\resources\EnvProperty\EnvProperty.properties
+INFO  [main] [CommonHelper.java:37]: Object Set
+INFO  [main] [CommonHelper.java:91]: id Found
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [CommonHelper.java:37]: Object Set
+INFO  [main] [CommonHelper.java:68]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [CommonHelper.java:88]: Locator id is Found in the Location Property File
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [CommonHelper.java:37]: Object Set
+INFO  [main] [CommonHelper.java:68]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [CommonHelper.java:88]: Locator id is Found in the Location Property File
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [CommonHelper.java:37]: Object Set
+INFO  [main] [CommonHelper.java:68]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [CommonHelper.java:88]: Locator id is Found in the Location Property File
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [CommonHelper.java:37]: Object Set
+INFO  [main] [CommonHelper.java:68]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [CommonHelper.java:88]: Locator id is Found in the Location Property File
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [CommonHelper.java:37]: Object Set
+INFO  [main] [CommonHelper.java:68]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [CommonHelper.java:88]: Locator id is Found in the Location Property File
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [CommonHelper.java:37]: Object Set
+INFO  [main] [CommonHelper.java:68]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [CommonHelper.java:88]: Locator id is Found in the Location Property File
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [CommonHelper.java:37]: Object Set
+INFO  [main] [CommonHelper.java:68]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [CommonHelper.java:88]: Locator id is Found in the Location Property File
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [EnvPropertyReader.java:39]: Environment Property File is existing 
+INFO  [main] [CommonHelper.java:37]: Object Set
+INFO  [main] [CommonHelper.java:68]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [CommonHelper.java:88]: Locator id is Found in the Location Property File
+INFO  [main] [EnvPropertyReader.java:38]: Environment Property File is existing 
+INFO  [main] [EnvPropertyReader.java:38]: Environment Property File is existing 
+INFO  [main] [CommonHelper.java:41]: Object Set
+INFO  [main] [CommonHelper.java:72]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [CommonHelper.java:92]: Locator id is Found in the Location Property File
+INFO  [main] [EnvPropertyReader.java:38]: Environment Property File is existing 
+INFO  [main] [EnvPropertyReader.java:38]: Environment Property File is existing 
+INFO  [main] [CommonHelper.java:41]: Object Set
+INFO  [main] [CommonHelper.java:72]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [CommonHelper.java:92]: Locator id is Found in the Location Property File
+INFO  [main] [EnvPropertyReader.java:36]: Property File is existing in the specified path
+INFO  [main] [EnvPropertyReader.java:51]: BROWSER is  existing in the environment property File
+INFO  [main] [EnvPropertyReader.java:36]: Property File is existing in the specified path
+INFO  [main] [EnvPropertyReader.java:51]: LocatorProperty is  existing in the environment property File
+INFO  [main] [TestHelper.java:34]: Object Set
+INFO  [main] [TestHelper.java:65]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [TestHelper.java:85]: Locator id is Found in the Location Property File
+INFO  [main] [EnvPropertyReader.java:35]: Property File is existing in the specified path
+INFO  [main] [EnvPropertyReader.java:49]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:49]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:49]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:49]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:49]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:49]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:49]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:49]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:49]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:49]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:49]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:51]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [TestHelper.java:44]: Object Set
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:51]: Search_Bar is  existing in the environment property File
+INFO  [main] [TestHelper.java:81]: Locator is not available in the Locatory property File
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:51]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [TestHelper.java:44]: Object Set
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:51]: Search_Bar is  existing in the environment property File
+INFO  [main] [TestHelper.java:81]: Locator is not available in the Locatory property File
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:51]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:51]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [TestHelper.java:44]: Object Set
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:51]: Search_Bar is  existing in the environment property File
+INFO  [main] [TestHelper.java:81]: Locator is not available in the Locatory property File
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:51]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [TestHelper.java:44]: Object Set
+INFO  [main] [PropertyReader.java:41]: Property file does not exist in the Path
+INFO  [main] [PropertyReader.java:51]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:41]: Property file does not exist in the Path
+INFO  [main] [PropertyReader.java:51]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:41]: Property file does not exist in the Path
+INFO  [main] [PropertyReader.java:51]: BROWSER is  existing in the environment property File
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:51]: BROWSER is  existing in the environment property File
+INFO  [main] [TestHelper.java:44]: Object Set
+INFO  [main] [PropertyReader.java:51]: Search_Bar is  existing in the environment property File
+INFO  [main] [TestHelper.java:77]: Locator lst-ib is found in the Locator Property File
+INFO  [main] [TestHelper.java:96]: Locator id is Found in the Location Property File
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:61]: BROWSER is  existing in the environment property File with value CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:42]: Helper Object Properties are Set
+INFO  [main] [PropertyReader.java:61]: Search_Bar is  existing in the environment property File with value id~lst-ib
+INFO  [main] [TestHelper.java:75]: Objectlst-ib is found in the Locator Property File
+INFO  [main] [TestHelper.java:94]: Locator is Found in the Location Property File
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:61]: BROWSER is  existing in the environment property File with value CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:42]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:111]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:61]: Search_Bar is  existing in the environment property File with value id~lst-ib
+INFO  [main] [TestHelper.java:75]: Objectlst-ib is found in the Locator Property File
+INFO  [main] [TestHelper.java:94]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:116]: Page title is Google
+INFO  [main] [TestHelper.java:122]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:37]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:61]: BROWSER is  existing in the environment property File with value CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:42]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:111]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:61]: Search_Bar is  existing in the environment property File with value id~lst-ib
+INFO  [main] [TestHelper.java:74]: Object id is eixsting in the Locator Property File
+INFO  [main] [TestHelper.java:75]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:94]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:116]: Page title is :Google
+INFO  [main] [TestHelper.java:122]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:39]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:39]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:63]: BROWSER is  existing in the property File with value null
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:39]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:39]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:63]: BROWSER is  existing in the property File with value CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:42]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:111]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:63]: Search_Bar is  existing in the property File with value id~lst-ib
+INFO  [main] [TestHelper.java:74]: Object id is eixsting in the Locator Property File
+INFO  [main] [TestHelper.java:75]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:94]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:116]: Page title is :Google
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:40]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:40]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:64]: BROWSER is  existing in the property File with value CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:44]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:113]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:64]: Search_Bar is  existing in the property File with value id~lst-ib
+INFO  [main] [TestHelper.java:76]: Object id is eixsting in the Locator Property File
+INFO  [main] [TestHelper.java:77]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:96]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:118]: Page title is :Google
+INFO  [main] [TestHelper.java:124]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:65]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:44]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:113]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:76]: Object id is eixsting in the Locator Property File
+INFO  [main] [TestHelper.java:77]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:96]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:118]: Page title is :Google
+INFO  [main] [TestHelper.java:124]: Browser closed successfully after the test execution
+INFO  [main] [TestHelper.java:124]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:65]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:44]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:113]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:76]: Object id is eixsting in the Locator Property File
+INFO  [main] [TestHelper.java:77]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:96]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:118]: Page title is :Google
+INFO  [main] [TestHelper.java:113]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:76]: Object id is eixsting in the Locator Property File
+INFO  [main] [TestHelper.java:77]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:96]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:118]: Page title is :Google
+INFO  [main] [TestHelper.java:124]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:65]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:44]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:113]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:76]: Object id is eixsting in the Locator Property File
+INFO  [main] [TestHelper.java:77]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:96]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:118]: Page title is :Google
+INFO  [main] [TestHelper.java:113]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:76]: Object id is eixsting in the Locator Property File
+INFO  [main] [TestHelper.java:77]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:96]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:118]: Page title is :Google
+INFO  [main] [TestHelper.java:124]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:65]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:44]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:113]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:76]: Object id is eixsting in the Locator Property File
+INFO  [main] [TestHelper.java:77]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:96]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:118]: Page title is :Google
+INFO  [main] [TestHelper.java:124]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:65]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:44]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:124]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:65]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:42]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:111]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:74]: Object id is eixsting in the Locator Property File
+INFO  [main] [TestHelper.java:75]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:94]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:116]: Page title is :Google
+INFO  [main] [TestHelper.java:122]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:65]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:42]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:111]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:74]: Object id is eixsting in the Locator Property File
+INFO  [main] [TestHelper.java:75]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:94]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:116]: Page title is :Google
+INFO  [main] [TestHelper.java:122]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:65]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:36]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:115]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:41]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:65]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:36]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:65]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:115]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:52]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:36]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:52]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:52]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:115]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:52]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:36]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:52]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:52]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:115]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:52]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:36]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:52]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:52]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:115]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:52]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:36]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:52]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:52]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:36]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:52]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:52]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:115]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:52]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:36]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:52]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:115]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:52]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:36]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:104]: Launching URL http://google.com
+INFO  [main] [PropertyReader.java:52]: Search_Bar is  existing in the property File with value= id~lst-ib
+INFO  [main] [TestHelper.java:67]: Object id is existing in the Locator Property File
+INFO  [main] [TestHelper.java:68]: Locator for Objectid is lst-ib
+INFO  [main] [TestHelper.java:87]: lst-ib Object is Found in the Location Property File
+INFO  [main] [TestHelper.java:109]: Page title is :Google
+INFO  [main] [TestHelper.java:115]: Browser closed successfully after the test execution
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:28]: Property File is existing in the specified path
+INFO  [main] [PropertyReader.java:52]: BROWSER is  existing in the property File with value= CHROME
+INFO  [main] [TestLogger.java:28]: Preparing the Logger Instance
+INFO  [main] [TestHelper.java:36]: Helper Object Properties are Set
+INFO  [main] [TestHelper.java:115]: Browser closed successfully after the test execution

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Basic Test Case for Framework(failed)">
+    <classes>
+      <class name="com.testautomation.tests.GoogleTest2">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="launchTestAutomationGuruTest"/>
+        </methods>
+      </class> <!-- com.testautomation.tests.GoogleTest2 -->
+      <class name="com.testautomation.tests.GoogleTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="launchTestAutomationGuruTest"/>
+        </methods>
+      </class> <!-- com.testautomation.tests.GoogleTest -->
+    </classes>
+  </test> <!-- Basic Test Case for Framework(failed) -->
+</suite> <!-- Failed suite [Suite] -->
